@@ -15,10 +15,10 @@ spec:
         
   template:
     metadata:
-    name: postgres-pod
-    labels:
-        name: postgres-pod
-        app: voting-app
+      name: postgres-pod
+      labels:
+          name: postgres-pod
+          app: voting-app
 
     spec:
       containers:
