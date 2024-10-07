@@ -30,12 +30,12 @@ spec:
           - name: POSTGRES_USER
             valueFrom:
               secretKeyRef:
-              name: db-user
-              key: user
+                name: db-user
+                key: user
             
           - name: POSTGRES_PASSWORD
             valueFrom:
               secretKeyRef:
-              name: db-password
-              key: password
+                name: db-password
+                key: password
 
