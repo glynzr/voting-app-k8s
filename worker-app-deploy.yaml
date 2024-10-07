@@ -16,10 +16,10 @@ spec:
         
   template:
     metadata:
-    name: worker-pod
-    labels:
-        name: worker-pod
-        app: voting-app
+      name: worker-pod
+      labels:
+          name: worker-pod
+          app: voting-app
 
     spec:
       containers:
