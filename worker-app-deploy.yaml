@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Deployment
 
 metadata:
@@ -6,7 +6,7 @@ metadata:
   labels:
     app: voting-app
     name: worker-deployment
-    
+
 spec:
   replicas: 1
   selector:
